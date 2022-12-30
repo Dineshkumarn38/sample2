@@ -10,11 +10,16 @@ public class demo1 {
 		System.out.println("Two");
 	}
 
+	private void three() {
+		System.out.println("Three");
+	}
+
 	public static void main(String[] args) {
 		demo1 z = new demo1();
 
 		z.one();
 		z.two();
+		z.three();
 	}
 
 }
